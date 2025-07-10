@@ -223,3 +223,30 @@ main{
     max-width: 430px;
     max-height: 2604px;
 }
+
+
+
+
+/* footer style */
+
+
+
+.foot{
+    display: flex;
+    gap: 120px;
+    justify-content: center;
+    padding: 130px 230px;
+    
+}
+
+.foot_cols{
+max-width: 50%;
+}
+.f_i{
+    display: block;
+    width: 100%;
+    height: 64px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
