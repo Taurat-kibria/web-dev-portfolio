@@ -98,9 +98,9 @@ nav ul li a {
 }
 
 .header {
-    background-image: url("../images/developer.png"),url('../images/header_bg.png');
+    background-image: url("../images/developer.png"), url('../images/header_bg.png');
     background-repeat: no-repeat;
-    background-position: top left , bottom right;
+    background-position: top left, bottom right;
 
 }
 
@@ -109,48 +109,95 @@ nav ul li a {
 
 
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-around;
 }
 
-.heading{
+.heading {
     font-size: 35px;
     font-weight: bold;
+    text-align: center;
 
 }
 
-.lil_text{
+.lil_text {
     font-size: 18px;
     color: #757575;
 }
-.item_tittle{
+
+.item_tittle {
     font-size: 20px;
     color: #757575;
 }
-.item_description{
+
+.item_description {
     font-size: 20px;
     font-weight: bold;
     color: #474747;
 }
 
-.about_me{
+.about_me {
     max-width: 430px;
     max-height: 960px;
     text-align: center;
     margin: 0 auto;
     padding: 140px 150px;
     border-radius: 5px;
-    
-    
 
-    
+
+
+
 }
 
 
 /* +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ */
 
 /* shared class */
-.second_bg{
-    background-color:  #FFF8F3;
+.second_bg {
+    background-color: #FFF8F3;
+}
+
+
+
+
+
+/* what i do section */
+
+.what_i_do {
+
+    margin: 0 auto;
+    max-width: 730px;
+    max-height: 960px;
+}
+
+.skill_container {
+    display: flex;
+    gap: 24px;
+    text-align: justify;
+    
+
+}
+
+.skill {
+    max-width: 521px;
+    max-height: 1865px;
+    box-shadow: 0px 6px 50px 0;
+    scrollbar-shadow-color: #000000;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.icon {
+    max-width: 260px;
+    max-height: 1895px;
+}
+
+.skill_name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sk_description {
+    font-size: 16px;
 }
